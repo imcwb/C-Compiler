@@ -1,0 +1,6 @@
+
+class Scaner {
+private:
+
+};
+

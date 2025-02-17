@@ -1,0 +1,13 @@
+<binary_op> -> +
+<binary_op> -> -
+<type> -> int
+<var> -> id
+<expr> -> <var> <binary_op> <var>
+<expr> -> <expr> <binary_op> <expr>
+<expr> -> <expr> <binary_op> <var>
+<expr> -> <var> <binary_op> <expr>
+<decl_stmt> -> <type> <var>
+<decl_stmt> -> <type> <var> = const
+<assign_stmt> -> <var> = <expr>
+<stmt> -> <decl_stmt>
+<stmt> -> <assign_stmt>
